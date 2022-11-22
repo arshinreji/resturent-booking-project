@@ -1,0 +1,34 @@
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4">
+      <div class="form-group">
+        <form  class=" border form-horizontal hr p-5 "[formGroup]="registerForm">
+          <h1 class="form-label ">Register</h1>
+          <small *ngIf="registerForm.controls['name'].dirty && registerForm.hasError('required','name')" class="text-danger">*name is requried</small>
+          <div class="form-floating mb-3">
+              <input name="name" type="text" class="form-control" formControlName="name" placeholder="Name">
+              <label >Name</label>
+            </div>
+            <small *ngIf="registerForm.controls['email'].dirty && registerForm.hasError('required','email')" class="text-danger">*Email is requried</small>
+          <div class="form-floating mb-3">
+              <input name="email" type="email" class="form-control" placeholder="name@example.com" formControlName="email">
+              <label for="floatingInput">Email address</label>
+            </div>
+            <small *ngIf="registerForm.controls['password'].dirty && registerForm.hasError('required','password')" class="text-danger">*Password is requried</small>
+        <div class="form-floating mb-3">
+          <input name="password" type="password" class="form-control"  placeholder="Password" formControlName="password" >
+          <label for="floatingInput">Password</label>
+        </div>
+        <div class="form-floating">
+  <button [disabled]="registerForm.invalid"  type="submit" class="btn btn-success mb-3 mt-4" (click)="register()">Register</button>
+          <p style="color:white;">Alrady a user ? Please <a (click)="Login()">Login</a> </p>
+        </div>
+      </form>
+      </div>
+    </div>
+    <div class="col-sm-4"></div>
+  </div>
+</div>
+

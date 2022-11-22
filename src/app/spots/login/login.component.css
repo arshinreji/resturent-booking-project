@@ -1,0 +1,11 @@
+form{
+  margin-bottom:200px;
+  margin-top: 100px;
+  border-radius:10px;
+  background-image:linear-gradient(rgb(226, 226, 226),#f3f1fa);
+}
+h1{
+  margin-left:120px;
+  margin-bottom:40px;
+  color:white;
+}

@@ -1,0 +1,13 @@
+table{
+    border:2px solid black;
+    padding: 20px;
+    margin-left:40px;
+    margin-right:40px;
+    margin-top:100px;
+    margin-bottom:40px;
+    color: aliceblue;
+    background-color: black;
+}
+td{
+    padding:20px;
+}

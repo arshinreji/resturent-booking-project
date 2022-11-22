@@ -1,0 +1,24 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Email</th>
+        <th scope="col">Guest No</th>
+        <th scope="col">time</th> 
+        <th scope="col">Date</th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let myBooking of booking">
+      <tr >
+        <th scope="row">{{myBooking.id}}</th>
+        <td>{{myBooking.name}}</td>
+        <td>{{myBooking.email}}</td>
+        <td>{{myBooking.guestno}}</td>
+        <td>{{myBooking.time}}</td>
+        <td>{{myBooking.date}}</td>
+        <td><button class="btn btn-danger">Cancel Booking</button></td>
+      </tr>
+    
+    </tbody>
+  </table>

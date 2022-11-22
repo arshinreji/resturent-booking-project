@@ -1,0 +1,119 @@
+{
+   
+
+    "spots":[
+        {
+            "id": 1,
+            "Name":"laggu",
+            "Place":"kochi",
+            "raiting":"4.7",
+            "price":"15",
+            "img":"https://i.postimg.cc/V6GM3phH/p2.jpg"
+    },
+    {
+        "id": 2,
+        "Name":"Tonico Caffe",
+        "Place":"kochi",
+        "raiting":"4.7",
+        "price":"15",
+        "img":"https://i.postimg.cc/kgh48HG7/p4.jpg"
+},
+{
+    "id":3,
+    "Name":"MashResto Cafe ",
+    "Place":"kochi",
+    "raiting":"4.9",
+    "price":"15",
+    "img":"https://i.postimg.cc/GprMFX5S/p1.jpg"
+},
+{
+    "id":4,
+    "Name":"MDMA Cafe",
+    "Place":"kochi",
+    "raiting":"4.9",
+    "price":"15",
+    "img":"https://i.postimg.cc/XYDfJQ0C/p3.jpg"
+},
+{
+    "id":5,
+    "Name":"coco Cafe ",
+    "Place":"kochi",
+    "raiting":"4.9",
+    "price":"15",
+    "img":"https://i.postimg.cc/1tk9L1m0/p5.jpg"
+},
+{
+    "id":6,
+    "Name":"caca Cafe ",
+    "Place":"kochi",
+    "raiting":"4.9",
+    "price":"15",
+    "img":"https://i.postimg.cc/c46mDqKk/p11.jpg"
+},
+{
+    "id":7,
+    "Name":"MOMO Cafe ",
+    "Place":"kochi",
+    "raiting":"4.9",
+    "price":"15",
+    "img":"https://i.postimg.cc/vmy22qw1/p12.jpg"
+},
+{
+    "id":8,
+    "Name":"Chai &Chat ",
+    "Place":"kochi",
+    "raiting":"4.9",
+    "price":"15",
+    "img":"https://i.postimg.cc/FRBZvG8V/p13.jpg"
+}
+
+
+
+  
+    ],
+
+    "register": [
+      {
+            "name":"max",
+        "email":"max@gmail.com",
+        "password":"max123"
+    },
+       {
+            "name":"arshin",
+        "email":"arshin@gmail.com",
+        "password":"arshin123"
+    },
+   {
+            "name":"abhi",
+        "email":"abhi@gmail.com",
+        "password":"abhi123"
+    },
+     {
+            "name":"amal",
+        "email":"amal@gmail.com",
+        "password":"amal123"
+    }
+
+    ],
+
+        "myBooking":[
+            {"id":"1",
+                "name":"max",
+                "email":"max@gmail.com",
+                "guestno":2,
+                "time":"11:35",
+                "date":"1-06-2001"
+            
+
+            },
+            {
+                "id":"2",
+            "name":"arshin",
+            "email":"arshin@gmail.com",
+            "guestno":5,
+            "time":"11:45",
+            "date":"12-10-2001"
+         }  
+        ]
+    
+}
